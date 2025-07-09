@@ -6,6 +6,7 @@ import sys
 
 
 def top_ten(subreddit):
+print("OK", end="", flush=True)
     """Read reddit API and return top 10 hotspots """
     username = 'ledbag123'
     password = 'Reddit72'
