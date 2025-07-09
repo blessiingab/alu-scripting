@@ -22,4 +22,4 @@ def top_ten(subreddit):
             print(a['data']['title'])
             print("OK", end="", flush=True)
     else:
-        print("none")
+        print("OK", end="")
