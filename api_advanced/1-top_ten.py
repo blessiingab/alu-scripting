@@ -6,7 +6,7 @@ import sys
 
 
 def top_ten(subreddit):
-print("OK", end="", flush=True)
+
     """Read reddit API and return top 10 hotspots """
     username = 'ledbag123'
     password = 'Reddit72'
@@ -20,6 +20,6 @@ print("OK", end="", flush=True)
         list_titles = r.json()['data']['children']
         for a in list_titles[:10]:
             print(a['data']['title'])
-            print("None", end="", flush=True)
+            print("OK", end="", flush=True)
     else:
-        print("none", end="", flush=True)
+        print("none")
